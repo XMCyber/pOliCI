@@ -1,0 +1,142 @@
+{
+  "description": "Supplemental resource type definitions for services not fully captured by the scraper. Merged into the permission index at build time.",
+  "aliases": {
+    "group-membership": "group-memberships"
+  },
+  "services": [
+    {
+      "id": "iam_group_memberships_supplement",
+      "name": "IAM Group Memberships (supplement)",
+      "source_url": "manual",
+      "individual_resource_types": ["group-memberships"],
+      "aggregate_resource_types": [],
+      "verb_resource_permissions": [
+        {
+          "resource_type": "group-memberships",
+          "verb": "inspect",
+          "permissions": ["GROUP_MEMBERSHIP_INSPECT"]
+        },
+        {
+          "resource_type": "group-memberships",
+          "verb": "read",
+          "permissions": []
+        },
+        {
+          "resource_type": "group-memberships",
+          "verb": "use",
+          "permissions": ["GROUP_MEMBERSHIP_UPDATE"]
+        },
+        {
+          "resource_type": "group-memberships",
+          "verb": "manage",
+          "permissions": ["GROUP_MEMBERSHIP_CREATE", "GROUP_MEMBERSHIP_DELETE"]
+        }
+      ]
+    },
+    {
+      "id": "generative_ai_agents_supplement",
+      "name": "Generative AI Agents (supplement)",
+      "source_url": "manual",
+      "individual_resource_types": [
+        "genai-agent-endpoints",
+        "genai-agents",
+        "genai-agent-data-sources",
+        "genai-agent-knowledge-bases",
+        "genai-agent-work-requests"
+      ],
+      "aggregate_resource_types": ["genai-agent-family"],
+      "verb_resource_permissions": [
+        {
+          "resource_type": "genai-agents",
+          "verb": "inspect",
+          "permissions": ["GENAI_AGENT_INSPECT"]
+        },
+        {
+          "resource_type": "genai-agents",
+          "verb": "read",
+          "permissions": ["GENAI_AGENT_READ"]
+        },
+        {
+          "resource_type": "genai-agents",
+          "verb": "use",
+          "permissions": ["GENAI_AGENT_UPDATE"]
+        },
+        {
+          "resource_type": "genai-agents",
+          "verb": "manage",
+          "permissions": ["GENAI_AGENT_CREATE", "GENAI_AGENT_DELETE", "GENAI_AGENT_MOVE"]
+        },
+        {
+          "resource_type": "genai-agent-endpoints",
+          "verb": "inspect",
+          "permissions": ["GENAI_AGENT_ENDPOINT_INSPECT"]
+        },
+        {
+          "resource_type": "genai-agent-endpoints",
+          "verb": "read",
+          "permissions": ["GENAI_AGENT_ENDPOINT_READ"]
+        },
+        {
+          "resource_type": "genai-agent-endpoints",
+          "verb": "use",
+          "permissions": ["GENAI_AGENT_ENDPOINT_UPDATE", "GENAI_AGENT_ENDPOINT_CHAT"]
+        },
+        {
+          "resource_type": "genai-agent-endpoints",
+          "verb": "manage",
+          "permissions": ["GENAI_AGENT_ENDPOINT_CREATE", "GENAI_AGENT_ENDPOINT_DELETE", "GENAI_AGENT_ENDPOINT_MOVE"]
+        },
+        {
+          "resource_type": "genai-agent-knowledge-bases",
+          "verb": "inspect",
+          "permissions": ["GENAI_AGENT_KNOWLEDGE_BASE_INSPECT"]
+        },
+        {
+          "resource_type": "genai-agent-knowledge-bases",
+          "verb": "read",
+          "permissions": ["GENAI_AGENT_KNOWLEDGE_BASE_READ"]
+        },
+        {
+          "resource_type": "genai-agent-knowledge-bases",
+          "verb": "use",
+          "permissions": ["GENAI_AGENT_KNOWLEDGE_BASE_UPDATE"]
+        },
+        {
+          "resource_type": "genai-agent-knowledge-bases",
+          "verb": "manage",
+          "permissions": ["GENAI_AGENT_KNOWLEDGE_BASE_CREATE", "GENAI_AGENT_KNOWLEDGE_BASE_DELETE", "GENAI_AGENT_KNOWLEDGE_BASE_MOVE"]
+        },
+        {
+          "resource_type": "genai-agent-data-sources",
+          "verb": "inspect",
+          "permissions": ["GENAI_AGENT_DATA_SOURCE_INSPECT"]
+        },
+        {
+          "resource_type": "genai-agent-data-sources",
+          "verb": "read",
+          "permissions": ["GENAI_AGENT_DATA_SOURCE_READ"]
+        },
+        {
+          "resource_type": "genai-agent-data-sources",
+          "verb": "use",
+          "permissions": ["GENAI_AGENT_DATA_SOURCE_UPDATE"]
+        },
+        {
+          "resource_type": "genai-agent-data-sources",
+          "verb": "manage",
+          "permissions": ["GENAI_AGENT_DATA_SOURCE_CREATE", "GENAI_AGENT_DATA_SOURCE_DELETE", "GENAI_AGENT_DATA_SOURCE_MOVE"]
+        },
+        {
+          "resource_type": "genai-agent-work-requests",
+          "verb": "inspect",
+          "permissions": ["GENAI_AGENT_WORK_REQUEST_INSPECT"]
+        },
+        {
+          "resource_type": "genai-agent-work-requests",
+          "verb": "read",
+          "permissions": ["GENAI_AGENT_WORK_REQUEST_READ"]
+        }
+      ]
+    }
+  ]
+}

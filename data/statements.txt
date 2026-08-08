@@ -1,0 +1,61 @@
+# Basic statements
+Allow group Administrators to manage all-resources in tenancy
+deny any-user to manage policies in tenancy where all {target.policy.type='deny',request.principal.id!='ocid1.user.oc1..exampleadminuser'}
+
+# Multiple groups (comma-separated) - EDGE CASE: lexer may not handle this
+Allow group A-Admins, B-Admins to manage all-resources in compartment Projects-A-and-B
+
+# Group by OCID - EDGE CASE: "id" keyword after "group"
+Allow group id ocid1.group.oc1..aaaaaaaaexampleuniqueID to manage instances in compartment Dev
+
+# Dynamic groups
+Allow dynamic-group FrontEnd to use load-balancers in compartment ProjectA
+Allow dynamic-group id ocid1.dynamicgroup.oc1..aaaaaaaaexampleID to manage instance-family in tenancy
+
+# any-user and any-group
+Allow any-user to inspect users in tenancy
+Allow any-group to read all-resources in compartment SharedResources
+
+# Different verbs
+Allow group Viewers to inspect virtual-network-family in compartment Network
+Allow group Readers to read volume-family in compartment Storage
+Allow group Operators to use instances in compartment Compute
+
+# Nested compartment paths - EDGE CASE
+Allow group DevTeam to manage all-resources in compartment Projects:SubProject:Dev
+
+# Conditions with 'any' selector (OR logic) - EDGE CASE
+Allow group GroupAdmins to manage groups in tenancy where any {target.group.name='A-Users',target.group.name='B-Users'}
+
+# Pattern matching in conditions - EDGE CASE
+Allow group GroupAdmins to manage groups in tenancy where target.group.name=/A-Users-*/
+
+# Multiple conditions with 'all' (AND logic)
+Allow group GroupAdmins to manage groups in tenancy where all {target.group.name=/A-*/,target.group.name!='A-Admins'}
+
+# Tag-based conditions - EDGE CASE
+Allow any-user to manage instances in compartment HR where request.principal.group.tag.Operations.Project='Prod'
+
+# Condition with request.user variables
+Allow group Admins to manage users in tenancy where request.user.id!='ocid1.user.oc1..systemuser'
+
+# Single condition without braces - EDGE CASE
+Allow group NetworkAdmins to manage vcns in tenancy where target.vcn.id='ocid1.vcn.oc1..example'
+
+# Complex condition with spaces in values - EDGE CASE
+Allow group DBAdmins to manage databases in compartment DB where all {target.database.name='Production DB',request.operation!='DELETE'}
+
+# Deny with specific principal exemption
+Deny any-user to manage tag-namespaces in tenancy where request.principal.id!='ocid1.user.oc1..adminuser'
+
+# Resource family types
+Allow group ComputeAdmins to manage instance-family in compartment Compute
+Allow group NetworkAdmins to manage virtual-network-family in compartment Network
+Allow group StorageAdmins to manage volume-family in compartment Storage
+Allow group DatabaseAdmins to manage database-family in compartment Database
+
+# Endorse statement (cross-tenancy) - EDGE CASE: different verb position
+Endorse group ObjectReaders to read objects in any-tenancy
+
+# Define statement (cross-tenancy) - EDGE CASE
+Define tenancy SourceTenancy as ocid1.tenancy.oc1..sourcetenancyocid

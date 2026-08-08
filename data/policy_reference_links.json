@@ -1,0 +1,447 @@
+[
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/policyreference_topic-General_Variables_for_All_Requests.htm",
+    "link_type": "general_variables",
+    "title": "General Variables for All Requests"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/General/Concepts/servicelimits.htm",
+    "link_type": "other",
+    "title": "Service Limits"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/processautomationpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Process Automation"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/analytics-cloud/doc/manage-service-access-and-security.html",
+    "link_type": "other",
+    "title": "Give Users Permissions to Manage Analytics Cloud Instances"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/announcementspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Announcements Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/apigatewaypolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for API Gateway"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/cloudshellpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Cloud Shell"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/apmpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Application Performance Monitoring"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/artifacts/iam-policies.htm",
+    "link_type": "external",
+    "title": "Artifact Registry Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/auditpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Audit Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/Bastion/Reference/bastionpolicyreference.htm",
+    "link_type": "external",
+    "title": "Bastion Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/bigdata/get-started.htm",
+    "link_type": "other",
+    "title": "Understand Big Data Service Resources and Permissions in IAM Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en/cloud/paas/blockchain-cloud/administeroci/set-users-and-application-roles.html",
+    "link_type": "other",
+    "title": "About Permissions and Policies to Manage Oracle Blockchain Platform"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/certificatespolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Certificates Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/CloudAdvisor/Reference/cloudadvisorpolicyreference.htm",
+    "link_type": "external",
+    "title": "Creating Cloud Advisor Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/cloud-guard/using/policies.htm",
+    "link_type": "other",
+    "title": "Cloud Guard Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/compute-cloud-at-customer/cmn/iam-oci/policy-reference.htm",
+    "link_type": "external",
+    "title": "Details for Compute Cloud@Customer"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/cluster-placement-groups/policy-reference.htm",
+    "link_type": "external",
+    "title": "Cluster Placement Groups Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/container-instances/permissions/policy-reference.htm",
+    "link_type": "external",
+    "title": "Container Instances IAM Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/corepolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Core Services"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/content-and-experience/doc/service-limits-quotas-policies-and-events.html",
+    "link_type": "other",
+    "title": "Service Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/Dashboards/Reference/dashboardspolicyreference.htm",
+    "link_type": "external",
+    "title": "Policy Details for Console Dashboards"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/data-catalog/using/policies.htm",
+    "link_type": "other",
+    "title": "Data Catalog Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/data-flow/using/policies.htm",
+    "link_type": "other",
+    "title": "Data Flow Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/data-integration/using/policies.htm",
+    "link_type": "other",
+    "title": "Data Integration Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en/cloud/paas/data-safe/admds/create-iam-policies-oracle-data-safe-users.html",
+    "link_type": "external",
+    "title": "Create IAM Policies for Oracle Data Safe Users"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/data-science/using/policies.htm",
+    "link_type": "other",
+    "title": "Data Science Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/databasepolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Database Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/dbmgmtpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Database Management"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/database-migration/doc/policies.html",
+    "link_type": "other",
+    "title": "Database Migration Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/postgresql/policies.htm",
+    "link_type": "other",
+    "title": "OCI Database with PostgreSQL Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/devops/using/devops_iampolicies.htm",
+    "link_type": "external",
+    "title": "DevOps Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/digital-assistant/doc/order-service-and-provision-instance.html",
+    "link_type": "other",
+    "title": "Digital Assistant Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/dnspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the DNS Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/emailpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Email Delivery Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/cloudeventspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Events Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/filestoragepolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the File Storage Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/lustre/policies.htm",
+    "link_type": "other",
+    "title": "Details for the File Storage with Lustre Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/fleet-management/policies-permissions.htm",
+    "link_type": "other",
+    "title": "Fleet Application Management Policies and Permissions"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/functionspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Functions"
+  },
+  {
+    "url": "https://docs.oracle.com/en/cloud/paas/globally-distributed-autonomous-database/user/policies.html",
+    "link_type": "other",
+    "title": "Globally Distributed Autonomous AI Database Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/goldengate/doc/policies.html",
+    "link_type": "other",
+    "title": "Oracle Cloud Infrastructure GoldenGate Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/healthcheckpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Health Checks"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/iampolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for IAM with Identity Domains"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/Reference/iampolicyreference.htm",
+    "link_type": "external",
+    "title": "Details for IAM without Identity Domains"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/javamanagementreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Java Management Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/contengpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Kubernetes Engine"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/licensemanagerpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for License Manager"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/integration/doc/iam-policy-permissions.html",
+    "link_type": "external",
+    "title": "IAM Policy Details for Oracle Integration"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/lbpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Load Balancing"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/loggingpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Logging"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/loganalyticspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Log Analytics"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/managementagentpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Management Agent"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/managementdashboardpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Management Dashboard"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/marketplacepolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Marketplace Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/monitoringpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Monitoring"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/media-services/mediaflow/mf-iam-policies.htm",
+    "link_type": "external",
+    "title": "Media Flow Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/media-services/mediastreams/ms-iam-policies.htm",
+    "link_type": "external",
+    "title": "Media Streams Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/mysql-database/doc/policy-details-mysql-database-service.html",
+    "link_type": "external",
+    "title": "IAM Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/network-firewall/policies.htm",
+    "link_type": "external",
+    "title": "Network Policy Rules and Rule Components"
+  },
+  {
+    "url": "https://docs.oracle.com/en/cloud/paas/nosql-cloud/odsql",
+    "link_type": "other",
+    "title": "Details for NoSQL Database Cloud"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/cloud-migration/cloud-migration-ocm-iam-policies.htm",
+    "link_type": "external",
+    "title": "Oracle Cloud Migration Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/notificationpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Notifications"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/objectstoragepolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Object Storage and Archive Storage"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/control-center/policies-permissions.htm",
+    "link_type": "other",
+    "title": "Control Center Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/operationsinsightspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Ops Insights"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/osmh/doc/policies.htm",
+    "link_type": "other",
+    "title": "OS Management Hub Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/queue/policy-reference.htm",
+    "link_type": "external",
+    "title": "Details for Queue"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/quotaspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Quotas Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/registrypolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Container Registry"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/resourcemanagerpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Resource Manager"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/stackmonitoringpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Stack Monitoring"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/searchpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Search Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/secure-desktops/policies.htm",
+    "link_type": "other",
+    "title": "Details for Secure Desktops"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/serviceconnectorhubpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Connector Hub"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/streamingpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Streaming Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/subsinvoicepaymenthistoryreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Subscriptions, Invoices, and Payment History"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/GSG/support/policy-reference.htm",
+    "link_type": "external",
+    "title": "Support Management IAM Policy Reference"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/threat-intel/using/policies.htm",
+    "link_type": "other",
+    "title": "Threat Intelligence Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/keypolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Vault, Key Management, and Secret Management Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/visual-builder/doc/iam-policy-permissions-1.html",
+    "link_type": "external",
+    "title": "IAM Policy Details for Visual Builder"
+  },
+  {
+    "url": "https://docs.oracle.com/en/cloud/paas/visual-builder/visualbuilder-administration/write-iam-policies-that-control-access-vb-studio---gen2.html",
+    "link_type": "external",
+    "title": "IAM Policy Details for Visual Builder Studio"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/ocvspolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Oracle Cloud VMware Solution"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/organizationsreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for Organization Management"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/Content/scanning/using/iam-policies.htm",
+    "link_type": "external",
+    "title": "Scanning Policies"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/wafpolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the WAF Service"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policyreference/waapolicyreference.htm",
+    "link_type": "service_detail",
+    "title": "Details for the Web Application Acceleration Service"
+  },
+  {
+    "url": "https://docs.oracle.com/iaas/wlms/doc/policies.htm",
+    "link_type": "other",
+    "title": "See Policies and Permissions"
+  },
+  {
+    "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/managingpolicies.htm",
+    "link_type": "external",
+    "title": "Overview of Working with Policies"
+  }
+]
